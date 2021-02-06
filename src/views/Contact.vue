@@ -1,6 +1,11 @@
 <template>
   <div class="contact">
+
     <HelloWorld msg="Get in touch" />
+    <img src="@/assets/contact.png"/>
+
+
+    
   </div>
 </template>
 
