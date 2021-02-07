@@ -22,22 +22,6 @@
     </b-row>
   </b-container>
 
-    
-  <!--<div class="nav-bar">
-    
-    <div class="logo">
-        <img src="@/assets/km-icon.png" />
-        <h1>kieran mcbride | web developer</h1>
-    </div>
-
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/portfolio">Portfolio</router-link> |
-      <router-link to="/contact">Contact</router-link>
-    </nav>
-
-  </div>-->
-
 </template>
 
 <script></script>
@@ -60,7 +44,6 @@ a:visited{color:#242424}
   
   .logo{display:flex; justify-content: center; padding: 3% 0;}
   nav{font-family:"Open Sans",cursive;text-decoration:none; display: flex;justify-content: center; padding: 3% 0;}
-
 
 }
 

@@ -1,9 +1,8 @@
 <template>
-    <div>
 
         <b-col cols="12" md="4">
           <b-card
-            title="This is a Project"
+            :title="name"
             img-src="https://picsum.photos/600/300/?image=2"
             img-alt="this is the project image"
             img-top
@@ -17,12 +16,11 @@
           </b-card>
         </b-col>
 
-    </div>
 </template>
 
 <script>
     export default {
-        
+        props:["name"]
     }
     
 </script>

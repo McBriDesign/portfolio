@@ -4,7 +4,7 @@
     <b-container>
       <b-row align-v="center">
        
-        <project-card></project-card>
+        <project-card v-for="project in projectList" :key="project.ID" :name="project.name"></project-card>
         
       </b-row>
     </b-container>
@@ -19,7 +19,22 @@
 
   export default {
     name: "portfolio",
-    components: { "project-card": ProjectCard }
+    components: { "project-card": ProjectCard },
+    mounted(){
+      this.fetchData();
+    },
+    data(){
+      return{
+        projectList: []
+      }
+    },
+    methods:{
+      async  fetchData(){
+        const res = await fetch("projects.json");
+        const projects = await res.json();
+        this.projectList = projects;
+      }
+    }
   };
 </script>
 
