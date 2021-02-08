@@ -31,4 +31,10 @@ body {
   color: #2c3e50;
 }
 
+a.router-link-exact-active.router-link-active {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 </style>
