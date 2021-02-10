@@ -2,6 +2,7 @@
   <div class="contact">
     <div class="container">
       <div class="cols-12" id="header-banner">
+        CONTACT US
      </div>
     </div>
   </div>
