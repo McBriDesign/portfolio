@@ -1,7 +1,11 @@
 <template>
   <div class="contact">
     <div class="container">
+<<<<<<< HEAD
       <div class="cols-12" id="header-banner">
+=======
+      <div class="cols-12" id="header-banner"> HELO
+>>>>>>> d09ed4d (stying changes)
      </div>
     </div>
   </div>
