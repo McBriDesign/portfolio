@@ -1,7 +1,7 @@
 [
     {
-    "name": "Project One",
-    "ID": 1
+    "ID": 1,
+    "name": "Project One"
     },
     {
     "name": "Project Two",
@@ -18,21 +18,5 @@
     {
     "name": "Project Five",
     "ID": 5
-    },
-    {
-    "name": "Project Six",
-    "ID": 6
-    },
-    {
-    "name": "Project Seven",
-    "ID": 7
-    },
-    {
-    "name": "Project Eight",
-    "ID": 8
-    },
-    {
-    "name": "Project Nine",
-    "ID": 9
     }
 ]

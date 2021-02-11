@@ -5,8 +5,10 @@
       <b-col cols="12" md="6">
 
         <div class="logo">
+          <router-link to="/">
           <img src="@/assets/km-icon.png" />
           <h1>kieran mcbride | web developer</h1>
+          </router-link> 
         </div>
 
       </b-col>
@@ -31,8 +33,7 @@
 
 .header-content{padding: 3% 0;}
 .nav-bar{width:100%;display:flex;align-items:center;justify-content:space-evenly;color:#242424;padding:0;margin:0;font:#fff 1em sans-serif;min-height:10rem}
-.logo{display:flex;}
-.logo a{display:flex;align-items:center}
+.logo a{display:flex;align-items:center; width: 100%;}
 .logo h1{font-family:"Open Sans",cursive;font-weight:100;font-size:1.25rem;align-items:center;display:inline-flex;margin:0}
 .logo img{margin-right:2.5%;width:30px;height:30px;display:inline-flex}
 nav{font-family:"Open Sans",cursive;text-decoration:none; display: flex; justify-content: flex-end;}
@@ -42,7 +43,7 @@ a:visited{color:#242424}
 
 @media only screen and (max-width: 768px) {
   
-  .logo{display:flex; justify-content: center; padding: 3% 0;}
+  .logo a{display:flex; justify-content: center; padding: 3% 0;}
   nav{font-family:"Open Sans",cursive;text-decoration:none; display: flex;justify-content: center; padding: 3% 0;}
 
 }
