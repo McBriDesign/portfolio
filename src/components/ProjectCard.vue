@@ -1,18 +1,16 @@
 <template>
 
-        <b-col cols="12" md="4">
+        <b-col cols="6" md="4">
           <b-card
             :title="name"
-            img-src="https://picsum.photos/600/300/?image=2"
+            :sub-title="info"
+            :img-src="image"
             img-alt="this is the project image"
             img-top
             tag="article"
-            style=""
-            class="mb-2">
-            <b-card-text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque cumque est ab corporis sit ut libero numquam cupiditate omnis nemo enim, mollitia nostrum suscipit quod atque sunt dolorum repudiandae.
-            </b-card-text>
-            <b-button variant="dark">See More</b-button>
+            class="project-tile">
+
+            <b-button class="primary-btn" variant="dark">See More</b-button>
           </b-card>
         </b-col>
 
@@ -20,11 +18,11 @@
 
 <script>
     export default {
-        props:["name"]
+        props:["name","image","info"],
     }
-    
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+.project-tile[data-v-4b3f916e]{margin-bottom:10%;border-radius:0;font-family:'Open Sans',sans-serif;border:none}
+.project-tile img[data-v-4b3f916e]{height:21.5rem;border-radius:0}
 </style>

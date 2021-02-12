@@ -4,7 +4,7 @@
     <b-container>
       <b-row align-v="center">
        
-        <project-card v-for="project in projectList" :key="project.ID" :name="project.name"></project-card>
+        <project-card v-for="project in projectList" :key="project.ID" :image="project.image" :name="project.name" :info="project.info"></project-card>
         
       </b-row>
     </b-container>
@@ -36,8 +36,6 @@
       }
     }
   };
+
 </script>
 
-<style lang="scss" scoped>
-
-</style>

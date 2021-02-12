@@ -1,22 +1,32 @@
 [
     {
     "ID": 1,
-    "name": "Project One"
+    "name": "Project One",
+    "image": "https://picsum.photos/600/300/?image=26",
+    "info": "This is my first"
     },
     {
+    "ID": 2,
     "name": "Project Two",
-    "ID": 2
+    "image": "https://picsum.photos/600/300/?image=7",
+    "info": "This is my second"
     },
     {
+    "ID": 3,
     "name": "Project Three",
-    "ID": 3
+    "image": "https://picsum.photos/600/300/?image=20",
+    "info": "This is my third"
     },
     {
+    "ID": 4,
     "name": "Project Four",
-    "ID": 4
+    "image": "https://picsum.photos/600/300/?image=16",
+    "info": "This is my fourth"
     },
     {
+    "ID": 5,
     "name": "Project Five",
-    "ID": 5
+    "image": "https://picsum.photos/600/300/?image=22",
+    "info": "This is my fifth"
     }
 ]
