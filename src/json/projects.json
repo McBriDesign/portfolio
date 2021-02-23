@@ -1,30 +1,30 @@
 [
     {
-    "projectID": 1,
+    "id": 1,
     "name": "Website",
-    "image": "https://picsum.photos/600/300/?image=26",
+    "image": "/assets/images/circular.png",
     "info": "Vue.js | Git | Webpack"
     },
     {
-    "projectID": 2,
+    "id": 2,
     "name": "Component",
     "image": "https://picsum.photos/600/300/?image=7",
     "info": "Git | Vue.js"
     },
     {
-    "projectID": 3,
+    "id": 3,
     "name": "Prototype",
     "image": "https://picsum.photos/600/300/?image=20",
     "info": "Figma"
     },
     {
-    "projectID": 4,
+    "id": 4,
     "name": "Project Four",
     "image": "https://picsum.photos/600/300/?image=16",
     "info": "This is my fourth"
     },
     {
-    "projectID": 5,
+    "id": 5,
     "name": "Project Five",
     "image": "https://picsum.photos/600/300/?image=22",
     "info": "This is my fifth"

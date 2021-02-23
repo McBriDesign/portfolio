@@ -4,8 +4,8 @@
     <b-container>
       <b-row align-v="center">
        
-        <project-card v-for="project in projectList" :key="project.ID" :image="project.image" :name="project.name" :info="project.info"></project-card>
-        
+        <ProjectCollection/>
+
       </b-row>
     </b-container>
 
@@ -15,11 +15,11 @@
 
 <script>
 
-  import ProjectCard from '../components/ProjectCard.vue'
+  import ProjectCollection from '../components/ProjectCollection.vue';
 
   export default {
     name: "portfolio",
-    components: { "project-card": ProjectCard },
+    components: { ProjectCollection },
     mounted(){
       this.fetchData();
     },
