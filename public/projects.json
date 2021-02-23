@@ -1,21 +1,21 @@
 [
     {
     "ID": 1,
-    "name": "Project One",
+    "name": "Website",
     "image": "https://picsum.photos/600/300/?image=26",
-    "info": "This is my first"
+    "info": "Vue.js | Git | Webpack"
     },
     {
     "ID": 2,
-    "name": "Project Two",
+    "name": "Component",
     "image": "https://picsum.photos/600/300/?image=7",
-    "info": "This is my second"
+    "info": "Git | Vue.js"
     },
     {
     "ID": 3,
-    "name": "Project Three",
+    "name": "Prototype",
     "image": "https://picsum.photos/600/300/?image=20",
-    "info": "This is my third"
+    "info": "Figma"
     },
     {
     "ID": 4,
