@@ -2,7 +2,7 @@
 
 <div class="placeholder" cols="12">
 
-<b-col v-for="project in projects" :key="project.id" cols="6" md="4">
+<b-col v-for="project in projects" :key="project.id" class="project-tile" cols="6" md="4">
     <router-link
         :to="{
             name: 'portfolio',
@@ -11,8 +11,8 @@
             >
           <b-card
             :title="project.name"
-            :sub-title="project.info"
-            :img-src="project.image"
+            :sub-title="project.skills"
+            :img-src="project.tile"
             img-alt="this is the project image"
             img-top
             tag="article"
@@ -43,11 +43,8 @@ export default {
 
 <style scoped>
 
-    .placeholder{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+    .placeholder{width: 100%;display: flex;flex-wrap: wrap;}
+    .project-tile{margin-bottom: 2.5%;}
 
 </style>
 

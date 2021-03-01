@@ -1,32 +1,46 @@
 [
     {
     "id": 1,
-    "name": "Website",
-    "image": "/assets/images/circular.png",
-    "info": "Vue.js | Git | Webpack"
+    "name": "Kaleidoscope",
+    "type": "TV Ad Page",
+    "tile": "/assets/images/kal_project.jpg",
+    "header": "/assets/images/kal_project.jpg",
+    "skills": "Vue.js | Git | Webpack",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!"
     },
     {
     "id": 2,
-    "name": "Component",
-    "image": "https://picsum.photos/600/300/?image=7",
-    "info": "Git | Vue.js"
+    "name": "Kaleidoscope",
+    "type": "TV Ad Page",
+    "tile": "/assets/images/kal_project.jpg",
+    "header": "/assets/images/kal_project.jpg",
+    "skills": "Vue.js | Git | Webpack",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!"
     },
     {
     "id": 3,
-    "name": "Prototype",
-    "image": "https://picsum.photos/600/300/?image=20",
-    "info": "Figma"
+    "name": "Kaleidoscope",
+    "type": "TV Ad Page",
+    "tile": "/assets/images/kal_project.jpg",
+    "header": "/assets/images/kal_project.jpg",
+    "skills": "Vue.js | Git | Webpack",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!"
     },
     {
     "id": 4,
-    "name": "Project Four",
-    "image": "https://picsum.photos/600/300/?image=16",
-    "info": "This is my fourth"
+    "name": "Kaleidoscope",
+    "type": "TV Ad Page",
+    "tile": "/assets/images/kal_project.jpg",
+    "header": "/assets/images/kal_project.jpg",
+    "skills": "Vue.js | Git | Webpack",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!"
     },
     {
     "id": 5,
-    "name": "Project Five",
-    "image": "https://picsum.photos/600/300/?image=22",
-    "info": "This is my fifth"
+    "name": "Swimwear365",
+    "tile": "/assets/images/swim_project.jpg",
+    "header": "/assets/images/swim_project.jpg",
+    "skills": "HTML | CSS | jQuery",
+    "info": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fugit saepe impedit debitis officiis temporibus cum, accusamus rerum amet dolorum aut error, ex reiciendis. Excepturi numquam debitis ducimus cupiditate repellat!"
     }
 ]
