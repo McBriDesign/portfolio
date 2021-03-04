@@ -1,13 +1,13 @@
 <template>
 
   <b-container class="header-content">
-    <b-row align-v="center">
+    <b-row no-gutters align-v="center">
       <b-col cols="12" md="6">
 
         <div class="logo">
           <router-link to="/">
           <img src="@/assets/km-icon.png" />
-          <h1>kieran mcbride | web developer</h1>
+          <h1 class="text-logo">kieran mcbride | web developer</h1>
           </router-link> 
         </div>
 
@@ -40,10 +40,11 @@ nav a{margin:0 5%}
 a{text-decoration:none}
 a:visited{color:#242424}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   
+  .logo .text-logo{display: none;}
   .logo a{display:flex; justify-content: center; padding: 3% 0;}
-  nav{font-family:"Open Sans",cursive;text-decoration:none; display: flex;justify-content: center; padding: 3% 0;}
+  nav{justify-content: center; padding: 3% 0;}
 
 }
 

@@ -1,7 +1,7 @@
 <template>
   <div class="footer-bar">
     <b-container>
-    <b-row>
+    <b-row no-gutters>
       <b-col cols="12" lg="8" class="quick-link">
         <router-link to="/">Home</router-link>
         <router-link to="/portfolio">My Work</router-link>
@@ -20,7 +20,7 @@
 <script></script>
 
 <style scoped>
-.footer-bar{width:100%;font-family:"Open Sans",cursive;text-decoration:none;bottom:0;display:flex;align-items:center;justify-content:space-around;color:#2c3e50;padding:0;margin:0;min-height:16rem;background:#ebebeb; margin-top: 3%; padding-top: 1.25%;}
+.footer-bar{width:100%;font-family:"Open Sans",cursive;text-decoration:none; position: absolute; bottom:0;display:flex;align-items:center;justify-content:space-around;color:#2c3e50;padding:0;margin:0;min-height:250px;background:#ebebeb; margin-top: 3%; padding-top: 1.25%;}
 .logo{font-size:2rem}
 nav{width:30%}
 nav a{margin:0 5%}
@@ -36,5 +36,6 @@ a.router-link-exact-active.router-link-active {font-weight: normal;text-decorati
   .quick-link a {margin: 5%;}
 
 }
+
 
 </style>

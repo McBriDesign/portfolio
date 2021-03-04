@@ -45,6 +45,7 @@ export default {
 
     .placeholder{width: 100%;display: flex;flex-wrap: wrap;}
     .project-tile{margin-bottom: 2.5%;}
-
+    .primary-btn{margin-top: 3.5%; margin-bottom: 3%;}
+    
 </style>
 
