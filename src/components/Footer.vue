@@ -28,7 +28,7 @@ a{text-decoration:none}
 a:visited{color:#2c3e50}
 .quick-link {width: 100%; display: inline-flex; justify-content: flex-start;}
 .quick-link a {margin-left: 5%;}
-a.router-link-exact-active.router-link-active {font-weight: normal;text-decoration: none;}
+a.router-link-exact-active.router-link-active {font-weight: bolder; text-decoration: none;}
 
 @media only screen and (max-width: 991px) {
   
