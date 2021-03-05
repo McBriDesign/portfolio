@@ -58,13 +58,11 @@ export default {
 </script>
 
 <style scoped>
-
     .card-title, .card-subtitle{ color: #ffffff!important; font-weight: mormal!important; opacity: 1!important;}
     .card-img-overlay{ display: flex; flex-direction: column; justify-content: center; height:100%; width: 100%; vertical-align: center; background-color: #2c3e50; opacity: 0;}
     .card-img-overlay:hover{opacity: 0.85;}
     .placeholder{width: 100%;display: flex;flex-wrap: wrap;}
     .project-tile{margin-bottom: 2.5%;}
     .primary-btn{margin-top: 3.5%; margin-bottom: 3%;}
-    
 </style>
 
