@@ -29,6 +29,7 @@
 <script></script>
 
 <style scoped>
+a{color: #242424}
 
 .header-content{padding: 3% 0;}
 .nav-bar{width:100%;display:flex;align-items:center;justify-content:space-evenly;color:#242424;padding:0;margin:0;font:#fff 1em sans-serif;min-height:10rem}

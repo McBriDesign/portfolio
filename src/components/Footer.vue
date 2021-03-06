@@ -20,6 +20,7 @@
 <script></script>
 
 <style scoped>
+a {color: #242424;}
 .footer-bar{width:100%;font-family:"Open Sans",cursive;text-decoration:none; position: absolute; bottom:0;display:flex;align-items:center;justify-content:space-around;color:#2c3e50;padding:0;margin:0;min-height:250px;background:#ebebeb; margin-top: 3%; padding-top: 1.25%;}
 .logo{font-size:2rem}
 nav{width:30%}
