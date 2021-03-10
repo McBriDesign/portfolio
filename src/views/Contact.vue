@@ -14,6 +14,7 @@
         <p class="bio-text">If you like what you have seen are interesting in hiring me for work, please get in touch via any of the methods below.</p>
       </b-col>
     </b-row>
+
     <!-- old contact
     <b-row id="contact-details" no-gutters>
 
@@ -25,13 +26,13 @@
       </b-col>
       
     </b-row>
-  -->
+    -->
+    
     <b-row no-gutters>
 
       <b-col class="form-container" cols="12">
         
         <form 
-        @submit.prevent="handleSubmit"
         name="contact"
         method="POST"
         id="contact-form"
@@ -60,17 +61,10 @@
 // @ is an alias to /src
 
 export default {
-  name: "Home",
-  methods:{
-    handleSubmit() {
-      fetch('/', {
-        method: 'POST',
-        headers: {
+  name: "Contact",
+  headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
-      })
-    }
-  }
 };
 </script>
 
