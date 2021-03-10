@@ -33,11 +33,13 @@
       <b-col class="form-container" cols="12">
         
         <form netlify
-        name="contact"
+        name="contact-me"
         method="POST"
         id="contact-form"
         data-netlify-recaptcha="true"
         data-netlify="true">
+
+          <input type="hidden" name="form-name" value="contact-me" />
 
           <input class="field" type="text" name="name" id="name" placeholder="Name"/>
           
