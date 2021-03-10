@@ -36,7 +36,7 @@
             name="contact-me"
             method="POST"
             id="contact-form"
-            data-netlify-recaptcha="true"
+            netlify-honeypot="bot-field"
             data-netlify="true"
           >
             <input type="hidden" name="form-name" value="contact-me" />

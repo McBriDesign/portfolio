@@ -5,15 +5,5 @@ module.exports = {
       args[0].title = "Kieran McBride - Portfolio";
       return args;
     });
-  },
-
-  pluginOptions: {
-    prerenderSpa: {
-      registry: undefined,
-      renderRoutes: ["/", "/#/contact"],
-      useRenderEvent: true,
-      headless: true,
-      onlyProduction: true
-    }
   }
 };
