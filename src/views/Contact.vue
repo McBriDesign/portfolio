@@ -30,24 +30,20 @@
 
       <b-col class="form-container" cols="12">
         
-        <form name="contact" method="POST" id="contact-form" data-netlify="true">
-          <div class="fields">
-            <div class="field">
-              <input type="text" name="name" id="name" placeholder="Name"/>
-            </div>
-            <div class="field">
-              <input type="email" name="email" id="email" placeholder="Email"/>
-            </div>
-            <div class="field">
-              <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-            </div>
-            <div class="field">
-              <div data-netlify-recaptcha="true"></div>
-            </div>
-          </div>
-          <ul class="actions">
-            <li><input type="submit" value="Send Message" class="primary-btn"/></li>
-          </ul>
+        <form 
+        name="contact"
+        method="post"
+        id="contact-form"
+        data-netlify-recaptcha="true"
+        data-netlify="true">
+
+          <input class="field" type="text" name="name" id="name" placeholder="Name"/>
+          
+          <input class="field" type="email" name="email" id="email" placeholder="Email"/>
+         
+          <textarea class="field" name="message" id="message" placeholder="Message" rows="7"></textarea>
+          
+          <button type="submit" value="Send Message" class="primary-btn">Send Message</button>
 
         </form>
 
@@ -87,10 +83,8 @@ a {color: #242424; width: 100%;}
     width: 93%;
     margin: 0 auto;}
 .form-container{ min-height: 400px; margin: 3% auto;}
-.field{margin-bottom: 2.5%;}
-.field textarea, .field input{width: 100%; border: none; background-color: #ebebeb; padding: 1.5%;}
-.actions{text-decoration: none; list-style: none; padding: 0}
-.actions li input{padding: 1% 1.5%; color: #ffffff;}
+.field{margin-bottom: 2.5%; width: 100%; border: none; background-color: #ebebeb; padding: 1.5%;}
+.primary-btn{padding: 1% 1.5%; color: #ffffff;}
 
 
 @media only screen and (max-width: 991px) {
@@ -107,8 +101,7 @@ a {color: #242424; width: 100%;}
 @media only screen and (max-width: 480px) {
   
   .title{font-size:2.75rem}
-  .actions li input{padding: 2% 3.5%; color: #ffffff;}
-
+  .primary-btn{padding: 2% 3.5%; color: #ffffff;}
 
 }
 
