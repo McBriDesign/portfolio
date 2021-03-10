@@ -1,27 +1,38 @@
-const path = require('path')
-const PrerenderSPAPlugin = require('prerender-spa-plugin')
+const path = require("path");
+const PrerenderSPAPlugin = require("prerender-spa-plugin");
 
 module.exports = {
   configureWebpack: () => {
-    if (process.env.NODE_ENV !== 'production') return;
+    if (process.env.NODE_ENV !== "production") return;
     return {
       plugins: [
         new PrerenderSPAPlugin(
           // Absolute path to compiled SPA
-          path.resolve(__dirname, 'dist'),
+          path.resolve(__dirname, "dist"),
           // List of routes to prerender
-          [ '/contact'],
+          ["/contact"],
           {
             // options
           }
-        ),
+        )
       ]
-    }
+    };
   },
+
   chainWebpack: config => {
     config.plugin("html").tap(args => {
       args[0].title = "Kieran McBride - Portfolio";
       return args;
     });
+  },
+
+  pluginOptions: {
+    prerenderSpa: {
+      registry: undefined,
+      renderRoutes: ["/", "/contact"],
+      useRenderEvent: true,
+      headless: true,
+      onlyProduction: true
+    }
   }
 };
