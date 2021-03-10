@@ -27,12 +27,12 @@
       
     </b-row>
     -->
-    
+
     <b-row no-gutters>
 
       <b-col class="form-container" cols="12">
         
-        <form 
+        <form netlify
         name="contact"
         method="POST"
         id="contact-form"
