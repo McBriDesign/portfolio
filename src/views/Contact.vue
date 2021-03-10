@@ -30,7 +30,7 @@
 
       <b-col class="form-container" cols="12">
         
-        <form action="POST" id="contact-form" data-netlify="true">
+        <form name="contact" method="POST" id="contact-form" data-netlify="true">
           <div class="fields">
             <div class="field">
               <input type="text" name="name" id="name" placeholder="Name"/>
