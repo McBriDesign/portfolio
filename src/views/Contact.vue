@@ -31,8 +31,9 @@
       <b-col class="form-container" cols="12">
         
         <form 
+        @submit.prevent="handleSubmit"
         name="contact"
-        method="post"
+        method="POST"
         id="contact-form"
         data-netlify-recaptcha="true"
         data-netlify="true">
@@ -60,7 +61,16 @@
 
 export default {
   name: "Home",
-  components: {}
+  methods:{
+    handleSubmit() {
+      fetch('/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      })
+    }
+  }
 };
 </script>
 
