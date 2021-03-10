@@ -5,7 +5,6 @@
     "type": "Page Refresh to increase conversion",
     "tile": "/assets/images/swim_tile.jpg",
     "header": "/assets/images/swim_project.jpg",
-    "skills": "jQuery | Responsive | Analytics",
     "paragraphs":[ "This was a refresh project with an aim of improving customer engagement and conversion rates for the Swimwear365 ‘Shape Calculator’ page.", "This was a particularly interesting project as it provided opportunities to work closely with the UX and analytics teams within the business, using tools such as Adobe Analytics to identify problem areas and judge progress throughout testing phases.", "The project also provided invaluable experience in simplifying existing designs as well as developing technical skills via working with the behind the scenes coding logic powered by jQuery."
     ],
     "images":[ "/assets/images/swim_project.jpg", "/assets/images/swim_screen_1.jpg", "/assets/images/swim_screen_2.jpg"]
@@ -16,8 +15,35 @@
     "type": "Microsite Production",
     "tile": "/assets/images/kal_tile.jpg",
     "header": "/assets/images/kal_project.jpg",
-    "skills": "jQuery | Responsive | Analytics",
     "paragraphs":[ "This project involved designing and developing the Kaleidoscope TV ad page to work responsively across devices.", "The project provided the ability to experiment with several coding and testing techniques, including parallax scrolling methods, implementing optimised HTML5 video and running mock usability sessions.", "I was also able to venture into accessibility testing, using a screen reader to test how well the page was displaying for any customers that may require extra accessibility."],
     "images":[ "/assets/images/kal_project.jpg", "/assets/images/kal_screen_1.jpg", "/assets/images/kal_screen_2.jpg"]
+    },
+    {
+    "id": 3,
+    "name": "Bradford City of Film",
+    "type": "10th Anniversary",
+    "tile": "/assets/images/bcof-tile.png",
+    "header": "/assets/images/kal_project.jpg",
+    "paragraphs":[ "This project involved designing and developing the Kaleidoscope TV ad page to work responsively across devices.", "The project provided the ability to experiment with several coding and testing techniques, including parallax scrolling methods, implementing optimised HTML5 video and running mock usability sessions.", "I was also able to venture into accessibility testing, using a screen reader to test how well the page was displaying for any customers that may require extra accessibility."],
+    "images":[ "/assets/images/kal_project.jpg", "/assets/images/kal_screen_1.jpg", "/assets/images/kal_screen_2.jpg"]
+    },
+    {
+    "id": 4,
+    "name": "Bradford City of Film",
+    "type": "10th Anniversary",
+    "tile": "/assets/images/bcof-tile.png",
+    "header": "/assets/images/kal_project.jpg",
+    "paragraphs":[ "This project involved designing and developing the Kaleidoscope TV ad page to work responsively across devices.", "The project provided the ability to experiment with several coding and testing techniques, including parallax scrolling methods, implementing optimised HTML5 video and running mock usability sessions.", "I was also able to venture into accessibility testing, using a screen reader to test how well the page was displaying for any customers that may require extra accessibility."],
+    "images":[ "/assets/images/kal_project.jpg", "/assets/images/kal_screen_1.jpg", "/assets/images/kal_screen_2.jpg"]
+    },
+    {
+    "id": 5,
+    "name": "Swimwear365",
+    "type": "Page Refresh to increase conversion",
+    "tile": "/assets/images/swim_tile.jpg",
+    "header": "/assets/images/swim_project.jpg",
+    "paragraphs":[ "This was a refresh project with an aim of improving customer engagement and conversion rates for the Swimwear365 ‘Shape Calculator’ page.", "This was a particularly interesting project as it provided opportunities to work closely with the UX and analytics teams within the business, using tools such as Adobe Analytics to identify problem areas and judge progress throughout testing phases.", "The project also provided invaluable experience in simplifying existing designs as well as developing technical skills via working with the behind the scenes coding logic powered by jQuery."
+    ],
+    "images":[ "/assets/images/swim_project.jpg", "/assets/images/swim_screen_1.jpg", "/assets/images/swim_screen_2.jpg"]
     }
 ]

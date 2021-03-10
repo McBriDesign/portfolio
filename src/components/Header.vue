@@ -6,7 +6,7 @@
 
         <div class="logo">
           <router-link to="/">
-          <img src="@/assets/km-icon.png" />
+          <img src="/assets/images/km-icon.png" />
           <h1 class="text-logo">kieran mcbride | web developer</h1>
           </router-link> 
         </div>
