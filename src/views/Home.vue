@@ -2,7 +2,7 @@
   <b-container class="placeholder">
     <b-row no-gutters id="section-bio">
       <b-col cols="12" md="5" lg="4" xl="4">
-        <img id="bio-img" src="/assets/images/bio-img2.jpg" />
+        <img id="bio-img" src="/assets/images/bio-img.png" />
       </b-col>
       <b-col id="bio" cols="12" md="6" lg="7" xl="7">
         <h1 class="title">Hi, I'm Kieran</h1>
